@@ -1,0 +1,4 @@
+# Runtime journals are ignored and therefore do not use a custom merge driver.
+
+# 保留原始文件字节，使源码和许可文本与公开清单中的 SHA-256 一致
+* -text

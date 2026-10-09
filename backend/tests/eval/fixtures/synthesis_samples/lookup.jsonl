@@ -1,0 +1,10 @@
+{"query": "What method does paper A use for feature extraction?", "intent": "lookup", "paper_ids": ["paper_a"], "expected_direct_text": true, "expected_missing": [], "expected_forbidden_claims": true}
+{"query": "What is the accuracy reported in paper B?", "intent": "lookup", "paper_ids": ["paper_b"], "expected_direct_text": true, "expected_missing": [], "expected_forbidden_claims": true}
+{"query": "How does paper C define the loss function?", "intent": "lookup", "paper_ids": ["paper_c"], "expected_direct_text": true, "expected_missing": [], "expected_forbidden_claims": true}
+{"query": "What dataset is used in paper D?", "intent": "lookup", "paper_ids": ["paper_d"], "expected_direct_text": true, "expected_missing": [], "expected_forbidden_claims": true}
+{"query": "What is the main contribution of paper E?", "intent": "lookup", "paper_ids": ["paper_e"], "expected_direct_text": true, "expected_missing": [], "expected_forbidden_claims": true}
+{"query": "How many layers does the model in paper F have?", "intent": "lookup", "paper_ids": ["paper_f"], "expected_direct_text": true, "expected_missing": [], "expected_forbidden_claims": true}
+{"query": "What optimizer is used in paper G?", "intent": "lookup", "paper_ids": ["paper_g"], "expected_direct_text": true, "expected_missing": [], "expected_forbidden_claims": true}
+{"query": "What is the training procedure in paper H?", "intent": "lookup", "paper_ids": ["paper_h"], "expected_direct_text": true, "expected_missing": [], "expected_forbidden_claims": true}
+{"query": "What baseline methods does paper I compare against?", "intent": "lookup", "paper_ids": ["paper_i"], "expected_direct_text": true, "expected_missing": [], "expected_forbidden_claims": true}
+{"query": "What evaluation metrics does paper J use?", "intent": "lookup", "paper_ids": ["paper_j"], "expected_direct_text": true, "expected_missing": [], "expected_forbidden_claims": true}

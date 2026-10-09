@@ -1,0 +1,131 @@
+.sa-evidence-desk,
+.sa-evidence-desk-panel {
+  border: 1px solid var(--sa-border-strong);
+  background: var(--sa-surface);
+}
+
+.sa-evidence-desk-panel--wide {
+  grid-column: 1 / -1;
+}
+
+.sa-evidence-desk__head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: center;
+  padding: 13px 15px;
+  border-bottom: 1px solid var(--sa-border-strong);
+}
+
+.sa-evidence-desk__title {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+.sa-evidence-desk__badge {
+  border: 1px solid var(--sa-border-strong);
+  background: var(--sa-danger);
+  color: white;
+  padding: 5px 8px;
+  font: 700 10px / 1.2 var(--sa-font-mono);
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.sa-evidence-desk__badge--blue {
+  background: var(--sa-evidence-blue);
+}
+
+.sa-evidence-desk__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.sa-evidence-desk > .sa-chip-list,
+.sa-evidence-desk > .sa-note {
+  padding: 12px 15px;
+}
+
+.sa-evidence-desk__card {
+  min-height: 124px;
+  padding: 14px 15px;
+  border-right: 1px solid var(--sa-border-strong);
+}
+
+.sa-evidence-desk__card:last-child {
+  border-right: 0;
+}
+
+.sa-evidence-desk__label {
+  display: block;
+  color: var(--sa-success);
+  font: 700 10px / 1.4 var(--sa-font-mono);
+  text-transform: uppercase;
+}
+
+.sa-evidence-desk__card strong {
+  display: block;
+  margin-top: 8px;
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+.sa-evidence-desk__card p {
+  margin: 8px 0 0;
+  color: var(--sa-text-soft);
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.sa-progress-accent-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.sa-progress-accent-card {
+  border: 1px solid var(--sa-border-strong);
+  background: var(--sa-surface);
+  box-shadow: 0 4px 0 rgba(48, 37, 29, 0.18);
+  padding: 16px;
+}
+
+.sa-progress-accent-title {
+  margin: 0;
+  font-size: 16px;
+}
+
+.sa-progress-accent-track {
+  height: 12px;
+  margin-top: 14px;
+  border: 1px solid var(--sa-border-strong);
+  background: var(--sa-surface-soft);
+}
+
+.sa-progress-accent-track span {
+  display: block;
+  height: 100%;
+  background: var(--sa-success);
+}
+
+.sa-progress-accent-chip[data-tone='warning'] {
+  border-color: color-mix(in srgb, var(--sa-progress) 38%, var(--sa-border));
+  background: color-mix(in srgb, var(--sa-progress) 18%, var(--sa-surface));
+}
+
+@media (max-width: 860px) {
+  .sa-progress-accent-grid,
+  .sa-evidence-desk__grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .sa-evidence-desk__card {
+    border-right: 0;
+    border-bottom: 1px solid var(--sa-border-strong);
+  }
+
+  .sa-evidence-desk__card:last-child {
+    border-bottom: 0;
+  }
+}

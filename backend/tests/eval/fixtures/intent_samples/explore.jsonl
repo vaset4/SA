@@ -1,0 +1,20 @@
+{"question": "这个领域最近有什么值得关注的趋势？", "expected_intent": "explore", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}
+{"question": "讨论一下 Transformer 在 NLP 之外的应用", "expected_intent": "explore", "expected_focus": ["paper_attention"], "expected_paper_coverage": ["paper_attention"], "forbidden_claim_patterns": []}
+{"question": "这篇论文的贡献和局限性是什么？", "expected_intent": "explore", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}
+{"question": "大语言模型的涌现能力有哪些研究方向？", "expected_intent": "explore", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}
+{"question": "总结一下这几篇论文的核心思路", "expected_intent": "explore", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}
+{"question": "自监督学习在视觉领域的发展脉络", "expected_intent": "explore", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}
+{"question": "这篇论文对后续工作有什么启发？", "expected_intent": "explore", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}
+{"question": "多模态学习的未来方向可能是什么？", "expected_intent": "explore", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}
+{"question": "帮我梳理一下这个研究问题的背景", "expected_intent": "explore", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}
+{"question": "从这些论文中能得出什么综合性结论？", "expected_intent": "explore", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}
+{"question": "知识蒸馏技术的演进路线是怎样的？", "expected_intent": "explore", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}
+{"question": "这篇论文的方法有什么潜在的改进空间？", "expected_intent": "explore", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}
+{"question": "联邦学习面临的主要挑战有哪些？", "expected_intent": "explore", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}
+{"question": "Prompt engineering 的研究现状如何？", "expected_intent": "explore", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}
+{"question": "这个方向还有哪些开放问题值得研究？", "expected_intent": "explore", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}
+{"question": "图神经网络在推荐系统中的应用前景", "expected_intent": "explore", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}
+{"question": "这篇论文的实验设计有什么值得借鉴的地方？", "expected_intent": "explore", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}
+{"question": "强化学习从人类反馈中学习的最新进展", "expected_intent": "explore", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}
+{"question": "数据增强技术在小样本场景下的作用", "expected_intent": "explore", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}
+{"question": "模型可解释性研究的主要流派有哪些？", "expected_intent": "explore", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}

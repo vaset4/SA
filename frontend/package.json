@@ -1,0 +1,35 @@
+{
+  "name": "study-assistant-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "clean": "node -e \"require('fs').rmSync('.next', { recursive: true, force: true })\"",
+    "dev": "next dev",
+    "dev:clean": "npm run clean && next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --experimental-vm-modules -e \"import('./lib/auth-session.test.mjs'); import('./lib/study-assistant-workspace.test.mjs'); import('./lib/frontend-phase6-structure.test.mjs'); import('./lib/api-wrapper-owner-source.test.mjs'); import('./lib/notify.test.mjs'); import('./lib/graph-interpretation.test.mjs'); import('./lib/paper-readiness-steps.test.mjs'); import('./lib/research-turn.test.mjs'); import('./lib/evidence-source.test.mjs'); import('./lib/final-citations.test.mjs'); import('./lib/result-delivery.test.mjs'); import('./lib/o5-memory-ui.test.mjs'); import('./lib/provider-queue.test.mjs')\""
+  },
+  "dependencies": {
+    "@antv/g6": "^5.0.49",
+    "@heroui/react": "^2.6.8",
+    "@iconify/react": "^5.0.2",
+    "framer-motion": "^11.11.17",
+    "katex": "^0.17.0",
+    "micromark-util-decode-string": "^2.0.1",
+    "next": "^14.2.0",
+    "next-themes": "^0.2.1",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "react-markdown": "^10.1.0",
+    "rehype-katex": "^7.0.1",
+    "remark-gfm": "^4.0.1",
+    "remark-math": "^6.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
+  }
+}

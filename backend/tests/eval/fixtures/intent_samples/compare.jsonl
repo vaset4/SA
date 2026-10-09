@@ -1,0 +1,20 @@
+{"question": "对比 BERT 和 GPT 的预训练策略", "expected_intent": "compare", "expected_focus": ["paper_bert", "paper_gpt"], "expected_paper_coverage": ["paper_bert", "paper_gpt"], "forbidden_claim_patterns": []}
+{"question": "ResNet 和 VGG 在 ImageNet 上的表现有什么差异？", "expected_intent": "compare", "expected_focus": ["paper_resnet", "paper_vgg"], "expected_paper_coverage": ["paper_resnet", "paper_vgg"], "forbidden_claim_patterns": []}
+{"question": "Transformer vs RNN 在长序列建模上的优劣", "expected_intent": "compare", "expected_focus": ["paper_attention"], "expected_paper_coverage": ["paper_attention"], "forbidden_claim_patterns": []}
+{"question": "这两篇论文的实验设置有什么不同？", "expected_intent": "compare", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}
+{"question": "比较 Adam 和 SGD 的收敛速度", "expected_intent": "compare", "expected_focus": ["paper_adam"], "expected_paper_coverage": ["paper_adam"], "forbidden_claim_patterns": []}
+{"question": "GAN 和 VAE 生成图像的质量对比", "expected_intent": "compare", "expected_focus": ["paper_gan", "paper_vae"], "expected_paper_coverage": ["paper_gan", "paper_vae"], "forbidden_claim_patterns": []}
+{"question": "ViT 和 CNN 在小数据集上的表现差异", "expected_intent": "compare", "expected_focus": ["paper_vit"], "expected_paper_coverage": ["paper_vit"], "forbidden_claim_patterns": []}
+{"question": "CLIP 和 ALIGN 的训练数据规模对比", "expected_intent": "compare", "expected_focus": ["paper_clip", "paper_align"], "expected_paper_coverage": ["paper_clip", "paper_align"], "forbidden_claim_patterns": []}
+{"question": "对比这三篇论文的方法论", "expected_intent": "compare", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}
+{"question": "ELMo 和 BERT 的上下文表示有什么区别？", "expected_intent": "compare", "expected_focus": ["paper_elmo", "paper_bert"], "expected_paper_coverage": ["paper_elmo", "paper_bert"], "forbidden_claim_patterns": []}
+{"question": "DenseNet 和 ResNet 的 skip connection 设计差异", "expected_intent": "compare", "expected_focus": ["paper_densenet", "paper_resnet"], "expected_paper_coverage": ["paper_densenet", "paper_resnet"], "forbidden_claim_patterns": []}
+{"question": "对比 word2vec 的 CBOW 和 Skip-gram", "expected_intent": "compare", "expected_focus": ["paper_word2vec"], "expected_paper_coverage": ["paper_word2vec"], "forbidden_claim_patterns": []}
+{"question": "这两个模型在推理速度上谁更快？", "expected_intent": "compare", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}
+{"question": "比较 RoBERTa 和 BERT 的训练策略改进", "expected_intent": "compare", "expected_focus": ["paper_roberta", "paper_bert"], "expected_paper_coverage": ["paper_roberta", "paper_bert"], "forbidden_claim_patterns": []}
+{"question": "Diffusion model 和 GAN 的生成质量对比", "expected_intent": "compare", "expected_focus": ["paper_ddpm", "paper_gan"], "expected_paper_coverage": ["paper_ddpm", "paper_gan"], "forbidden_claim_patterns": []}
+{"question": "GPT-3 和 GPT-2 的参数量和性能差异", "expected_intent": "compare", "expected_focus": ["paper_gpt3", "paper_gpt2"], "expected_paper_coverage": ["paper_gpt3", "paper_gpt2"], "forbidden_claim_patterns": []}
+{"question": "对比 self-attention 和 cross-attention 的计算复杂度", "expected_intent": "compare", "expected_focus": ["paper_attention"], "expected_paper_coverage": ["paper_attention"], "forbidden_claim_patterns": []}
+{"question": "MobileNet 和 EfficientNet 在移动端的部署对比", "expected_intent": "compare", "expected_focus": ["paper_mobilenet", "paper_efficientnet"], "expected_paper_coverage": ["paper_mobilenet", "paper_efficientnet"], "forbidden_claim_patterns": []}
+{"question": "这两篇论文对 few-shot learning 的定义有什么不同？", "expected_intent": "compare", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}
+{"question": "对比 LSTM 和 GRU 的门控机制", "expected_intent": "compare", "expected_focus": ["paper_lstm", "paper_gru"], "expected_paper_coverage": ["paper_lstm", "paper_gru"], "forbidden_claim_patterns": []}

@@ -1,0 +1,20 @@
+{"question": "什么是 Transformer 架构？", "expected_intent": "lookup", "expected_focus": ["paper_attention"], "expected_paper_coverage": ["paper_attention"], "forbidden_claim_patterns": []}
+{"question": "解释下 self-attention 的计算过程", "expected_intent": "lookup", "expected_focus": ["paper_attention"], "expected_paper_coverage": ["paper_attention"], "forbidden_claim_patterns": []}
+{"question": "BERT 的预训练目标是什么？", "expected_intent": "lookup", "expected_focus": ["paper_bert"], "expected_paper_coverage": ["paper_bert"], "forbidden_claim_patterns": []}
+{"question": "GPT-2 的模型参数量是多少？", "expected_intent": "lookup", "expected_focus": ["paper_gpt2"], "expected_paper_coverage": ["paper_gpt2"], "forbidden_claim_patterns": []}
+{"question": "ResNet 提出了什么核心创新？", "expected_intent": "lookup", "expected_focus": ["paper_resnet"], "expected_paper_coverage": ["paper_resnet"], "forbidden_claim_patterns": []}
+{"question": "什么是 dropout 正则化？", "expected_intent": "lookup", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}
+{"question": "解释下 batch normalization 的原理", "expected_intent": "lookup", "expected_focus": ["paper_bn"], "expected_paper_coverage": ["paper_bn"], "forbidden_claim_patterns": []}
+{"question": "ViT 是怎么把图像分成 patch 的？", "expected_intent": "lookup", "expected_focus": ["paper_vit"], "expected_paper_coverage": ["paper_vit"], "forbidden_claim_patterns": []}
+{"question": "CLIP 的对比学习目标是什么？", "expected_intent": "lookup", "expected_focus": ["paper_clip"], "expected_paper_coverage": ["paper_clip"], "forbidden_claim_patterns": []}
+{"question": "这篇论文的实验用了什么数据集？", "expected_intent": "lookup", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}
+{"question": "原文中关于 loss function 的定义是什么？", "expected_intent": "lookup", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}
+{"question": "Adam 优化器的更新公式是什么？", "expected_intent": "lookup", "expected_focus": ["paper_adam"], "expected_paper_coverage": ["paper_adam"], "forbidden_claim_patterns": []}
+{"question": "什么是 knowledge distillation？", "expected_intent": "lookup", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}
+{"question": "GAN 的判别器和生成器分别做什么？", "expected_intent": "lookup", "expected_focus": ["paper_gan"], "expected_paper_coverage": ["paper_gan"], "forbidden_claim_patterns": []}
+{"question": "这篇论文的 related work 部分提到了哪些方法？", "expected_intent": "lookup", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}
+{"question": "什么是 positional encoding？", "expected_intent": "lookup", "expected_focus": ["paper_attention"], "expected_paper_coverage": ["paper_attention"], "forbidden_claim_patterns": []}
+{"question": "ELMo 和 word2vec 的区别是什么？", "expected_intent": "lookup", "expected_focus": ["paper_elmo"], "expected_paper_coverage": ["paper_elmo"], "forbidden_claim_patterns": []}
+{"question": "这篇论文的 limitation 部分写了什么？", "expected_intent": "lookup", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}
+{"question": "什么是 multi-head attention？", "expected_intent": "lookup", "expected_focus": ["paper_attention"], "expected_paper_coverage": ["paper_attention"], "forbidden_claim_patterns": []}
+{"question": "原文怎么定义 perplexity 指标的？", "expected_intent": "lookup", "expected_focus": [], "expected_paper_coverage": [], "forbidden_claim_patterns": []}

@@ -1,0 +1,12 @@
+{
+  "retrieved_date": "2026-10-09",
+  "cc_by_4_0": {
+    "source": "caniuse-lite locked distribution, LICENSE",
+    "official_url": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+    "official_fetch_status": 403,
+    "sha256": "fd3a263fe19ed8faa9068b43abaebafc02c77897b0c6fc09abc04bb592e5f16e"
+  },
+  "lucide": "https://raw.githubusercontent.com/lucide-icons/lucide/main/LICENSE",
+  "minio": "https://raw.githubusercontent.com/minio/minio/RELEASE.2025-02-03T21-03-04Z/LICENSE",
+  "neo4j": "https://raw.githubusercontent.com/neo4j/neo4j/5.26.0/LICENSE.txt"
+}

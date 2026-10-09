@@ -1,0 +1,57 @@
+[
+  {
+    "name": "langchain-community",
+    "url": "https://raw.githubusercontent.com/langchain-ai/langchain/langchain-community%3D%3D0.4.1/LICENSE",
+    "status": "failed",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "name": "langchain-core",
+    "url": "https://raw.githubusercontent.com/langchain-ai/langchain/langchain-core%3D%3D1.2.7/LICENSE",
+    "path": "upstream/langchain-core.txt",
+    "sha256": "4ec67e4ca6e6721dba849b2ca82261597c86a61ee214bbf21416006b7b2d0478",
+    "status": "retrieved"
+  },
+  {
+    "name": "langchain-text-splitters",
+    "url": "https://raw.githubusercontent.com/langchain-ai/langchain/langchain-text-splitters%3D%3D1.1.0/LICENSE",
+    "path": "upstream/langchain-text-splitters.txt",
+    "sha256": "4ec67e4ca6e6721dba849b2ca82261597c86a61ee214bbf21416006b7b2d0478",
+    "status": "retrieved"
+  },
+  {
+    "name": "langsmith",
+    "url": "https://raw.githubusercontent.com/langchain-ai/langsmith-sdk/v0.14.5/LICENSE",
+    "path": "upstream/langsmith.txt",
+    "sha256": "34e0b9842c7a31d34e53bc7eb224e81e07a34996106e029bbc72dea2d449f496",
+    "status": "retrieved"
+  },
+  {
+    "name": "nano-vectordb",
+    "url": "https://raw.githubusercontent.com/gusye1234/nano-vectordb/main/LICENSE",
+    "path": "upstream/nano-vectordb.txt",
+    "sha256": "fac31245a2ecb9166079535b0ea0cf0a6b5135fc3b7d71efbb606fc11f49eaf5",
+    "status": "retrieved"
+  },
+  {
+    "name": "langchain-community",
+    "url": "https://raw.githubusercontent.com/langchain-ai/langchain-community/langchain-community%3D%3D0.4.1/LICENSE",
+    "status": "failed",
+    "error": "HTTPError:HTTP Error 404: Not Found"
+  },
+  {
+    "name": "tokenizers",
+    "url": "https://raw.githubusercontent.com/huggingface/tokenizers/v0.22.2/LICENSE",
+    "path": "tokenizers-apache-2.0.txt",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "status": "retrieved"
+  },
+  {
+    "name": "langchain-community",
+    "url": "https://raw.githubusercontent.com/langchain-ai/langchain-community/main/LICENSE",
+    "path": "upstream/langchain-community.txt",
+    "sha256": "a01dcffdc1291b4043f2a81d249a9f3e45c9036f2308c9cdfeefe18371371e80",
+    "status": "retrieved",
+    "version_linkage": "Package metadata declares MIT; exact version tag was unavailable, this is the upstream main license retrieved 2026-10-09"
+  }
+]

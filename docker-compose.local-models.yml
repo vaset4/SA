@@ -1,0 +1,25 @@
+# 显式选择本地模型：docker compose -f docker-compose.yml -f docker-compose.local-models.yml up -d --build
+services:
+  backend:
+    build:
+      args:
+        INSTALL_LOCAL_MODELS: "true"
+    environment:
+      EMBEDDING_MODE: local
+      EMBEDDING_MODEL: /app/models/bge-m3
+      EMBEDDING_DEVICE: cpu
+      RERANK_MODE: local
+      RERANK_MODEL: /app/models/bge-reranker-v2-m3
+    volumes:
+      - type: bind
+        source: ${LOCAL_EMBEDDING_MODEL_DIR:-./models/bge-m3}
+        target: /app/models/bge-m3
+        read_only: true
+        bind:
+          create_host_path: false
+      - type: bind
+        source: ${LOCAL_RERANK_MODEL_DIR:-./models/bge-reranker-v2-m3}
+        target: /app/models/bge-reranker-v2-m3
+        read_only: true
+        bind:
+          create_host_path: false

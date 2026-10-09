@@ -1,0 +1,5 @@
+-r requirements.txt
+pytest==8.4.2
+pytest-asyncio==1.2.0
+pytest-timeout==2.4.0
+reportlab==4.5.1

@@ -1,0 +1,101 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local tool state
+.ace-tool/
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+.venv/
+venv/
+env/
+
+# Backend local config / runtime
+backend/.env
+backend/ssl_key.log
+backend/data/
+backend/resources/tokenizers/
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/.turbo/
+frontend/.vercel/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+!*.env.example
+
+# 本机 compose 覆盖：端口等只在这台机器成立的调整，不该带给其他人
+docker-compose.override.yml
+
+# Runtime data / outputs / models
+# 根目录锚定避免忽略 backend/app/models/ 等源码包
+/data/
+/outputs/
+/models/
+backend/checkpoints/**
+
+# Local AI session content
+.trellis/workspace/**
+
+# Logs
+*.log
+
+# 本地参考资料与个人文件：体积大且与本仓库代码无关，留在磁盘但不入库
+cankao/
+jianli/
+
+# 抓存的外部论坛帖（带 topic_id / url frontmatter），是查资料时的原文留档，
+# 不是本项目文档。docs/ 下自己写的分析文章照常入库。
+docs/*-[0-9][0-9][0-9][0-9][0-9][0-9][0-9].md
+
+# 运行时 trace 不进入公开源码仓库
+/trace-*.json
+run/trace-*.json
+
+# 一次性调试产出：粘贴的 uvicorn 日志、问答输出、向量库 dump、审计报告。
+22.txt
+33.md
+de.txt
+/audit-report-StudyAssistant-*.md
+/audit-report-StudyAssistant-*.html
+run/11.txt
+run/dui.txt
+run/kkk.txt
+run/load111.txt
+
+# Claude Code 会话导出
+20[0-9][0-9]-[0-9][0-9]-[0-9][0-9]-*.txt
+
+# 本地测试用的论文原件。带前导斜杠只挡仓库根这一个目录，
+# 免得将来某个模块下出现同名的 paper/ 包被一起吞掉。
+/paper/
+
+# 本地克隆的第三方参考源码不属于本仓库
+docs/deepagents/
+docs/langchain/
+docs/langgraph/
+
+# 评测运行产物与代码索引，都是本机生成、可随时重建，不入库。
+# 带前导斜杠只挡仓库根，避免误伤将来某个模块下的同名目录。
+/runs/
+/.codegraph/
+
+# Independent public source snapshot and private evaluation artifacts
+/public-release/
+backend/evals/**/runs/
+backend/evals/**/experiments/
