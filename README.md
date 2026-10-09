@@ -4,8 +4,6 @@ StudyAssistant 是一个面向论文阅读与课题研究的开源学习工作�
 
 项目把资料管理、AI 分析、研究对话和证据核对放在同一个工作区。内部研究围绕已有资料展开，外部研究用于搜索和补充资料；研究结果可以结合原文、引用和研究过程进行复核。
 
-原创代码采用 [MIT](LICENSE)，依赖与图标遵循[各自许可及署名](THIRD_PARTY_NOTICES.md)。
-
 ## 适用场景
 
 - **读懂一篇论文**：梳理研究问题、核心方法、主要结论与局限，并回到原文核对细节。
@@ -133,16 +131,5 @@ docker compose -f docker-compose.yml -f docker-compose.local-models.yml up -d --
 
 默认读取 `models/bge-m3` 与 `models/bge-reranker-v2-m3`，可在 `.env` 指定 `LOCAL_EMBEDDING_MODEL_DIR` 和 `LOCAL_RERANK_MODEL_DIR`。目录必须存在，挂载为只读。
 
-## 切换向量模型后处理已有资料
 
-已经上传并处理过的资料，其检索数据与当时的向量模型配置有关。切换本地/API 模式、向量服务地址或模型后，需要重新处理这些资料，才能按新配置检索。原文件会保留，详见 [模型切换说明](docs/model-api.md#模式切换与数据)。
-
-## 运行测试
-
-安装开发依赖后，可在 `backend` 运行目标测试：
-
-```powershell
-python -m pytest tests/unit/test_embedding_client.py tests/unit/test_reranker.py --timeout=60 --timeout-method=thread -q
-```
-
-前端在 `frontend` 目录运行 `npm test` 和 `npm run build`。部分集成测试需要独立的数据库或模型服务，数据准备和运行方式见 [测试与评测](docs/evaluation.md)。
+采用 [MIT](LICENSE)，依赖与图标遵循[各自许可及署名](THIRD_PARTY_NOTICES.md)。
